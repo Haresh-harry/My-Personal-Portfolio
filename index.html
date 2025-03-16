@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Haresh Routhu</span></a>
+        <ul class="nav-links">
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#connect">Connect</a>
+            </li>
+        </ul>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <button class="visit-btn" onclick="visitGit()">Visit Git-hub</button>
+    </header>
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="haresh pic 2.jpg" alt="">
+            <div class="info-box">
+                <div class="text">
+                    <h3>Hi, I am</h3>
+                    <h1>Haresh Routhu</h1>
+                    <span>Frontend Developer</span>
+                </div>
+                <div class="btn-group">
+                    <div class="btn" onclick="download()">Download CV</div>
+                    <div class="btn" onclick="contactMail()">Contact</div>
+                </div>
+                <div class="socials">
+                    <a href="https://github.com/Haresh-harry"><i class="fa-brands fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/haresh-routhu-602202342/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience" class="experience">
+        <h2 class="section-title">Experience</h2>
+        <div class="experience-info">
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                    <span>Antar IoT</span>
+                    <h3>6 Months</h3>
+                    <p>I worked as an intern at Antar IoT, where I gained hands-on experience in testing, deployment, and learning the intricacies of IoT systems. During my internship, I contributed to various tasks, enhancing my skills in quality assurance and deployment processes.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-database"></i>
+                    <span>Hyper Verge Academy</span>
+                    <h3>6 Months</h3>
+                    <p>I completed an internship at Hyper Verge Academy, where I focused on full-stack development using the MERN stack (MongoDB, Express, React, Node.js). This experience allowed me to build and deploy dynamic web applications while strengthening my skills in both frontend and backend development.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-code"></i>
+                    <span>Frontend Developer</span>
+                    <h3>3 Years</h3>
+                    <p>I have been practicing frontend development for the past three years, honing my skills in creating responsive and dynamic user interfaces. I am proficient in technologies like HTML, CSS, JavaScript, and various frontend frameworks, delivering high-quality web experiences.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-file-code"></i>
+                    <span>Backend Developer</span>
+                    <h3>1 Years</h3>
+                    <p>I have been practicing backend development for the past year, gaining strong expertise in server-side technologies and databases. I'm proficient in SQL languages like MySQL and NoSQL databases like MongoDB.</p>
+                </div>
+            </div>
+            <img src="haresh pic 3.jpg" alt="">
+        </div>
+    </section>
+    <section id="projects" class="projects">
+        <h2 class="section-title">Recent Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="project-1.png" alt="">
+                <h3>Trivia Quiz Game</h3>
+                <p>The Trivia Quiz Game is a fun two-player competition where each player answers three questions to test their knowledge. The player with the most correct answers wins, making it an exciting and interactive way to challenge friends!</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://haresh-harry.github.io/Mini-Hackathon-2.0/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Haresh-harry/Mini-Hackathon-2.0">Git Repo</a></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="project-2.png" alt="">
+                <h3>Weather Now</h3>
+                <p>The "Weather Now" project provides real-time weather updates, allowing users to easily check current weather conditions in their location. By using an intuitive interface, it offers details such as temperature, humidity, wind speed, and forecasts, all in one place.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://haresh-harry.github.io/Weather-Now-Project/">Live Demo</a></div>
+                    <div class="btn"><a href="https://github.com/Haresh-harry/Weather-Now-Project">Git Repo</a></div>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="project-3.png" alt="">
+                <h3>Personal Blog</h3>
+                <p>My personal blog is a space where I share my thoughts, experiences, and insights on topics that I'm passionate about, from everyday life to creative projects and personal reflections.</p>
+                <div class="btn-group">
+                    <div class="btn"><a href="https://sites.google.com/view/hareshharry?usp=sharing">Live Demo</a></div>
+                    <div class="btn" onclick="alert('Nothing Here..!')">Git Repo</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="education" id="education">
+        <div class="education-box">
+            <h2 class="section-title">Education</h2>
+            <div class="grid">
+                <div class="grid-card">
+                    <i class="fa-solid fa-person-walking-luggage"></i>
+                    <span>Dr Lankapalli Bullayya College</span>
+                    <h3>MSC Computer Science - 2 yrs</h3>
+                    <p>I am studying M.Sc. in Computer Science at Dr. Lankapalli Bullayya College, with plans to complete my degree by the end of June 2025. The college has provided me with valuable insights and a strong foundation for my future career in the field.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>Mrs A.V.N Degree College</span>
+                    <h3>BSC Computer Science - 3 yrs</h3>
+                    <p> pursued my B.Sc. in Computer Science at Mrs. AVN Degree College, where I gained valuable knowledge and hands-on experience in the field. The college provided a great environment for learning and personal growth.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-school-lock"></i>
+                    <span>Sri Chaitanya Jnr College</span>
+                    <h3>Intermediate - 2 yrs</h3>
+                    <p>I had an enriching experience at Sri Chaitanya Junior College during my 11th and 12th, where I built a strong academic foundation and developed lasting friendships.</p>
+                </div>
+                <div class="grid-card">
+                    <i class="fa-solid fa-school"></i>
+                    <span>Vagdevi Talent School</span>
+                    <h3>SSC (10<sup>th</sup>)</h3>
+                    <p>Had a wonderful experience studying at Vagdevi Talent School in 10th class, where I gained knowledge and cherished memories that continue to inspire me.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="connect" class="connect">
+        <div class="connect-box">
+            <h2 class="section-title">Connect With Me</h2>
+            <div class="icon-fields">
+                <a href="https://www.instagram.com/_haresh_harry_/?hl=en"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://www.facebook.com/share/12EfM8BdvT4/"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.linkedin.com/in/haresh-routhu-602202342?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/Haresh-harry"><i class="fa-brands fa-github"></i></a>
+                <a href="#" onclick="contactMail()"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <ul>
+            <li>
+                <a href="#about">About</a>
+            </li>
+            <li>
+                <a href="#experience">Experience</a>
+            </li>
+            <li>
+                <a href="#projects">Projects</a>
+            </li>
+            <li>
+                <a href="#education">Education</a>
+            </li>
+            <li>
+                <a href="#connect">Connect</a>
+            </li>
+        </ul>
+        <p class="copyright">@ All Rights Reserved | Haresh Routhu</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
